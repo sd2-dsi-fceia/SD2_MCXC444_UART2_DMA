@@ -1,6 +1,5 @@
-/* Copyright 2019, DSI FCEIA UNR - Sistemas Digitales 2
+/* Copyright 2026, DSI FCEIA UNR - Sistemas Digitales 2
  *    DSI: http://www.dsi.fceia.unr.edu.ar/
- * Copyright 2019, Gustavo Muro
  * Copyright 2026, Agustin M. Zuliani
  * All rights reserved.
  *

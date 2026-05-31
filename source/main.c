@@ -1,7 +1,6 @@
-/* Copyright 2025, DSI FCEIA UNR - Sistemas Digitales 2
-#include <fxls8974.h>
+/* Copyright 2026, DSI FCEIA UNR - Sistemas Digitales 2
  *    DSI: http://www.dsi.fceia.unr.edu.ar/
- * Copyright 2025, Guido Cicconi
+ * Copyright 2026, Agustin M. Zuliani
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
