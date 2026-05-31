@@ -53,3 +53,17 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# MCUXpresso build output
+Debug/
+Release/
+
+# MCUXpresso IDE settings (machine-specific)
+.settings/
+
+# ARM toolchain binaries
+*.axf
+*.bin
+*.srec
+*.lst
+*.siz
