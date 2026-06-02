@@ -61,6 +61,12 @@ static void onRxByte(uint8_t *data, uint16_t len)
     g_byteReady = true;
 }
 
+static void onTxDone(uint8_t *data, uint16_t len)
+{
+    /* Se llama cuando el DMA termina de transmitir los 'len' bytes apuntados
+     * por 'data'. Aquí se puede liberar el buffer, señalizar una tarea, etc. */
+}
+
 /*==================[external functions definition]==========================*/
 
 int main(void)
@@ -68,7 +74,7 @@ int main(void)
     uart2_drv_init_t uartDev =
     {
         .cbRxInterrupt        = onRxByte,
-        .cbTxDMA              = NULL,
+        .cbTxDMA              = onTxDone,
         .uart_cfg =
         {
             .cfg.baudRate_Bps = 115200,
